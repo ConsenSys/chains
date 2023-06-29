@@ -788,7 +788,7 @@
     "symbol": "ETC",
     "decimals": 18
   },
-  "rpc": ["https://www.ethercluster.com/etc"],
+  "rpc": ["https://etc.rivet.link"],
   "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/?"],
   "infoURL": "https://ethereumclassic.org"
 }, {
@@ -814,7 +814,7 @@
     "symbol": "METC",
     "decimals": 18
   },
-  "rpc": ["https://www.ethercluster.com/mordor"],
+  "rpc": ["https://rpc.mordor.etccooperative.org"],
   "faucets": [],
   "infoURL": "https://github.com/eth-classic/mordor/"
 }, {
@@ -4770,7 +4770,7 @@
   "faucets": [],
   "infoURL": "https://bitcoinasset.io/"
 }, {
-  "name": "Horizen Yuma Testnet",
+  "name": "Horizen Yuma Testnet Deprecated",
   "chainId": 1662,
   "shortName": "Yuma",
   "networkId": 1662,
@@ -4779,8 +4779,8 @@
     "symbol": "tZEN",
     "decimals": 18
   },
-  "rpc": ["https://yuma-testnet.horizenlabs.io/ethv1"],
-  "faucets": ["https://yuma-testnet-faucet.horizen.io"],
+  "rpc": [],
+  "faucets": [],
   "infoURL": "https://horizen.io/"
 }, {
   "name": "Horizen Gobi Testnet",
@@ -11529,6 +11529,19 @@
   "rpc": ["https://hz.rpc.qkiscan.cn", "https://jp.rpc.qkiscan.io"],
   "faucets": [],
   "infoURL": "https://quarkblockchain.org/"
+}, {
+  "name": "Pego Network",
+  "chainId": 20201022,
+  "shortName": "pg",
+  "networkId": 20201022,
+  "nativeCurrency": {
+    "name": "Pego Native Token",
+    "symbol": "PG",
+    "decimals": 18
+  },
+  "rpc": ["https://pegorpc.com", "https://node1.pegorpc.com", "https://node2.pegorpc.com", "https://node3.pegorpc.com"],
+  "faucets": [],
+  "infoURL": "https://pego.network"
 }, {
   "name": "Excelon Mainnet",
   "chainId": 22052002,
